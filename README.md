@@ -54,11 +54,52 @@ class
     - Funcional
 
 ```ruby
-[1,2,3,4,5].select {|n| n % 2 == 0 }
+    [1,2,3,4,5].select {|n| n % 2 == 0 }
 
 ```
 
     - Imperativa
 
 ```ruby
+    numbers= [1, 2, 3, 4, 5]
+    even= []
     
+    numbers.each do|n|
+        even<< n if n.even?
+    end
+```
+
+    - Reflexiva
+
+```ruby
+    beagle.is_a? Animal
+    # => true
+ 
+    "A String".methods
+ 
+    # => [:<=>, :==, :===, :eql?, :hash,:casecmp, :+, :*, :%, :[], :[]=, :insert, :length, :size, :bytesize, :empty?, :=~, :match, :succ, :succ!,(...)]
+
+```
+
+- Tipagem Dinâmica Forte
+
+```ruby
+name= "Nelson Mandela"
+ age= 94
+ name+ age
+ 
+# => TypeError: can't convert Fixnum into String
+```
+
+- Tudo é objeto
+
+```ruby
+    3.times
+    # => #<Enumerator: 3:times>
+    
+    'im an object'.emtpy?
+    
+    # => false
+```
+
+

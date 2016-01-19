@@ -147,3 +147,11 @@ end
 goku.to_s
 # => "Goku nascido no ano de 1993"
 ```
+
+<img src=".assets/img1.jpg">
+
+<img src=".assets/img2.jpg">
+
+RubyGems
+
+<img src=".assets/img3.jpg">

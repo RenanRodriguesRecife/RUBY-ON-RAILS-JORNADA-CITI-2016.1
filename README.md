@@ -103,3 +103,47 @@ name= "Nelson Mandela"
 ```
 
 
+## Classes e métodos
+
+Definindo uma classe
+
+```ruby
+class User
+attr_accessor:name,:age
+
+ def initialize(name, age)
+    name = name 
+    age = age
+ end 
+end 
+
+u = User.new("Goku",2000)
+u.name # => “Goku”
+u.name ="Trunks"
+
+
+```
+
+Definindo um método
+
+```ruby
+
+class User
+    ...
+    Def to_s
+    name_capitalized + "nascido no ano de " + year_birth.to_s
+    end 
+    private
+    
+    def name_capitalized
+        name.capitalize
+    end 
+ 
+    def year_birth
+        Time.now.year - age
+    end 
+ 
+end
+goku.to_s
+# => "Goku nascido no ano de 1993"
+```

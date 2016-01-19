@@ -155,3 +155,28 @@ goku.to_s
 RubyGems
 
 <img src=".assets/img3.jpg">
+
+```
+$ gem install my-gem 
+ 
+$ irb
+ 2.0.0p195 :001> require ‘my-gem’
+ => true
+
+```
+
+irb - RubyInterativo
+
+O que é?
+
+    •Contido na instalação
+
+    •Interpretador interativo do Ruby
+
+    •Avalia expressões contidas no código
+
+    •Ótimo para ter o primeiro contato coma linguagem
+
+<img src=".assets/img4.jpg">
+
+<img src=".assets/img5.jpg">

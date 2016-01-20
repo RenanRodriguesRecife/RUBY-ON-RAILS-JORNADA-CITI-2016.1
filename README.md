@@ -192,7 +192,7 @@ O que é?
 
 ```
 
-<img src=".assets/img6.jpg">
+c
 
 ### Explorando o irb
 
@@ -213,3 +213,8 @@ O que é?
  => 0.6666666666666666
 ```
 
+<img src=".assets/img7.jpg">
+
+<img src=".assets/img8.jpg">
+
+<img src=".assets/img9.jpg">

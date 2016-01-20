@@ -192,7 +192,8 @@ O que é?
 
 ```
 
-c
+<img src=".assets/img6.jpg">
+
 
 ### Explorando o irb
 
